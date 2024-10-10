@@ -36,14 +36,15 @@ public class CalculationsTest {
     /**
      * Test of subtraction method, of class Calculations.
      */
+    //Testing subtraction method
     @Test
     public void testSubtraction() {
         System.out.println("subtraction");
-        double result_2 = 0.0;
-        double number1 = 0.0;
-        double number2 = 0.0;
+        double result_2 = 5.0;
+        double number1 = 10.0;
+        double number2 = 5.0;
         Calculations instance = new Calculations();
-        double expResult = 0.0;
+        double expResult = 5.0;
         double result = instance.subtraction(result_2, number1, number2);
         assertEquals(expResult, result, 0);
         
