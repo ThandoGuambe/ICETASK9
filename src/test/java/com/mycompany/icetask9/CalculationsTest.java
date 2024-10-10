@@ -53,14 +53,15 @@ public class CalculationsTest {
     /**
      * Test of division method, of class Calculations.
      */
+    //Testing division method
     @Test
     public void testDivision() {
         System.out.println("division");
-        double result_2 = 0.0;
-        double number1 = 0.0;
-        double number2 = 0.0;
+        double result_2 = 2.0;
+        double number1 = 10.0;
+        double number2 = 5.0;
         Calculations instance = new Calculations();
-        double expResult = 0.0;
+        double expResult = 2.0;
         double result = instance.division(result_2, number1, number2);
         assertEquals(expResult, result, 0);
        
@@ -69,18 +70,18 @@ public class CalculationsTest {
     /**
      * Test of multiplication method, of class Calculations.
      */
+    //Testing multiplication method
     @Test
     public void testMultiplication() {
         System.out.println("multiplication");
-        double result_2 = 0.0;
-        double number1 = 0.0;
-        double number2 = 0.0;
+        double result_2 = 50.0;
+        double number1 = 10.0;
+        double number2 = 5.0;
         Calculations instance = new Calculations();
-        double expResult = 0.0;
+        double expResult = 50.0;
         double result = instance.multiplication(result_2, number1, number2);
         assertEquals(expResult, result, 0);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+ 
     }
     
 }
