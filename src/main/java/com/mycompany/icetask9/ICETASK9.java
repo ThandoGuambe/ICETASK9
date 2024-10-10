@@ -12,6 +12,18 @@ import javax.swing.JOptionPane;
 public class ICETASK9 {
 
     public static void main(String[] args) {
+        //Declarations
+        String value1;
+        String value2;
+        String option;
+        
+        //Prompt user for 2 numbers
+        value1 = JOptionPane.showInputDialog("Enter the first number:");
+        double number1 =Double.parseDouble(value1); 
+        
+        value2 = JOptionPane.showInputDialog("Enter the second number:");
+        double number2 =Double.parseDouble(value2);
+        
         
     }
 }
